@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+       
+        body{
+            background-color: #E8ECED;
+        }
+        img {            
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            border:3px solid white;
+        }
+    
+        .first_presidency,.background{display:grid;
+            grid-template-columns: repeat(3, 110px);
+            justify-content: center;
+            gap: 20px;
+            }
+        
+        .first_presidency img{    
+            width: 110px;
+            height: 110px;
+            object-fit: cover;
+            box-sizing: border-box;}
+    
+        .apostles img{
+            width: 82px;
+            height: 82px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-sizing: border-box;
+
+        }
+
+        .background {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .background img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: none;
+            border-radius: 0;
+}
+        .apostles{
+            display:grid;
+            grid-template-columns: repeat(4, 82px);
+            justify-content: center;
+            column-gap: 18px;
+            row-gap: 25px;
+        }
+
+        .first_presidency{
+            grid-row:1/2
+        }
+
+        .row_one{
+            grid-row:1/2;
+        }
+        .row_two{
+            grid-row:2/3
+        }
+        .row_three{
+            grid-row:3/4
+        }
+       
+        .row_one,.row_two,.row_three {
+            display: contents;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section class="background">
+        <img src="images/christus.webp">
+    </section>
+
+    <h1>First Presidency</h1>
+    <section class="first_presidency">
+        <img src="images/eyring.webp">
+        <img src="images/oaks.webp">
+        <img src="images/christofferson.webp">
+    </section>
+
+    <h2>Quorum of the Twelve Apostles</h2>
+    <div class="apostles">
+        <section class="row_one">
+        <img src="images/uchtdorf.webp"> 
+        <img src="images/bednar.webp">   
+        <img src="images/cook.webp">    
+        <img src="images/anderson.webp">
+        </section>  
+        <section class="row_two">
+        <img src="images/rasband.webp"> 
+        <img src="images/stevenson.webp">  
+        <img src="images/renlund.webp">         
+        <img src="images/gong.webp"> 
+        </section>
+        <section class="row_three">
+        <img src="images/soares.webp">
+        <img src="images/kearon.webp">
+        <img src="images/causse.webp">
+        <img src="images/gilbert.webp">
+        </section>
+
+    </div>
+</body>
+</html>

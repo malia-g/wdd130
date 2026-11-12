@@ -1,0 +1,29 @@
+body
+
+{background-color: rgb(193, 208, 220);}
+
+.bordered{background-color: rgb(211, 192, 228);
+border: solid 2px rgb(177, 118, 204);
+margin:50px;
+padding:20px;
+width:500px;
+box-sizing: border-box;
+
+}
+
+.red{
+    h2{color:rgb(167, 10, 73);}
+    color:rgb(194, 35, 85);
+padding-top: 40px;
+}
+
+.hoverer {  display:inline;
+}
+.hoverer:hover{color:aqua;
+}
+
+span{
+    background-color: rgb(238, 211, 234);
+    display:block;
+
+}
